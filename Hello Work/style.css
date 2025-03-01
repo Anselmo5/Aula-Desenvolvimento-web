@@ -470,6 +470,10 @@ footer{
     line-height: 150%; 
     padding: 5px;
 }
+
+/* Responsividade do formulário */
+
+
 /* Res */
 
 
@@ -490,10 +494,28 @@ footer{
     .navConteudo h3 {
         margin-right: 0;
     }
+
+    .blocoImg{
+        margin-left: inherit;
+    }
+
+    .ImgMeio{
+        display: contents;
+        margin: auto;
+    }
 }
 
 /* Telas até 768px */
 @media (max-width: 768px) {
+
+    .blocoInicio, .alingConteudiMeio, .alingblocoPenul, .alingblocoFim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+    
 
     .menu-toggle {
         display: flex;
@@ -529,6 +551,7 @@ footer{
         flex-direction: column;
         text-align: center;
         width: 100%;
+        margin-left: auto;
     }
 
     .blocoImg img, .ImgMeio img {
