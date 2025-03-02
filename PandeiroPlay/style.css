@@ -507,6 +507,21 @@ footer{
     .ImgMeio img{
         margin-left: 0vw;
     }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo h3{
+        text-align: center;
+    }
+
+    nav{
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
 }
 
 /* Telas até 768px */
@@ -562,6 +577,7 @@ footer{
         width: 100%;
         height: auto;
     }
+    
 
     .mensagem h1 {
         font-size: 32px;
@@ -587,6 +603,10 @@ footer{
 
 /* Telas até 480px */
 @media (max-width: 480px) {
+    .blocoImg {
+        margin: 0em;
+    }
+
     .mensagem h1 {
         font-size: 28px;
     }
