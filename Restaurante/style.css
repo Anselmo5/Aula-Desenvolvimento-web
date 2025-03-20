@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+body{
+    background: #121617;
+    box-shadow: 0px 65px 200px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 1vh;
+}
+
+.Linkscontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Linkscontent a{
+    margin: 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imgContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContent img {
+    height: 2vw; /* Ajuste conforme necessário */
+}
+
+.imgContent h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1vw;
+}
+
+
+
+.btn button {
+    padding: 8px 16px;
+    border-radius: 24px;
+    background-color:#F4511F ;
+    color: #fff;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blocoInicio{
+    padding: 78px;
+}
+
+.alingConteudoInicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.blocoConteudo h3{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase
+}
+
+.blocoConteudo p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 35vw;
+    margin-top: 2.5vh;
+}
+
+.blocoConteudo h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69.76px; 
+    width: 23vw;
+}
+
+.blocoConteudo button{
+    border-radius: 8px;
+    background: #F4511F;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top:2.5vh;
+    padding: 8px 16px;
+}
+
+.blocoImg{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    flex-direction: column;
+}
+
+.blocoImg h3{
+    color: #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 12vw;
+}
+
+
+.blocoImg p{
+    color: #DAD8D7;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:11vw;
+    margin-right: 12vw;
+}
+
+.blocoMeio{
+    padding: 120px;
+}
+
+.TituloMeio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TituloMeio h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.alingCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.Card img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Card p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 9vw;
+}
+
+.blocoSubMeio{
+    padding: 72px;
+
+}
+
+.alingSubMeio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.About h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3vh;
+}
+
+.About p{
+    color: #DAD8D7;
+    font-family: Poppins;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 27vw;
+    margin-top: 5vh;
+}
+
+.About button{
+    border-radius: 8px;
+    background: #F4511F;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top:2.5vh;
+    padding: 8px 16px;
+    margin-top: 4vh;
+}
