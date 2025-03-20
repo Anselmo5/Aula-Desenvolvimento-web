@@ -112,7 +112,7 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 69.76px; 
-    width: 23vw;
+    width: 35vw;
 }
 
 .blocoConteudo button{
@@ -215,7 +215,7 @@ body{
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -267,4 +267,346 @@ body{
     margin-top:2.5vh;
     padding: 8px 16px;
     margin-top: 4vh;
+}
+
+.blocoMenu{
+    padding: 72px;
+}
+
+.alingMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alingCardTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5vh;
+}
+
+.CarTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw;
+}
+
+.alingCardBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+.CardBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw;
+}
+
+.AlingMenubtn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0.5vh;
+}
+
+
+.TituliMenu{
+    padding: 5vh;
+}
+
+.TituliMenu h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.CarTop h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.CarTop p{
+    color: #DAD8D7;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.CardBottom h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.CardBottom p{
+    color: #DAD8D7;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.AlingMenubtn button{
+    border-radius: 4px 4px 12px 4px;
+    background: #F4511F;
+    padding: 0.5vw;
+}
+
+.blocoDesconto{
+    padding: 72px;
+}
+
+.alingDesconto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.conteudoDesconto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudoDesconto h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conteudoDesconto p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conteudoDesconto button{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #F4511F;
+    padding: 1vw;
+    margin-top: 2vh; 
+}
+
+.blocoCarrosell{
+    padding: 72px;
+}
+
+.CarrosselSlid{
+    margin-top:15vh;
+}
+
+.alingCarossell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TituloCarossell h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Carrosell */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .swiper-slide h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+.swiper-slide p{
+    color: #DAD8D7;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.swiper-slide span{
+    color: #F4511F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.swiper-slide img{
+    width: 10vw;
+}
+
+.alingbtnCarossel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.alingImgCarossell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alingbtnCarossel button{
+    border-radius: 4px 4px 12px 4px;
+    background: #F4511F;
+    padding: 0.5vw;
+}
+
+  .alingbtnCarossel img{
+    width: 1.5vw;
+  }
+
+.Adereco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Adereco button{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    background: #F4511F;
+    padding: 0.4vw;
+}
+
+.Adereco img{
+    width: 2.5vw;
+}
+
+.blocoFim{
+    padding: 72px;
+}
+
+.aligFim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TituloFim h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subTexto{
+    margin-top: 5vh;
+}
+
+.subTexto p{
+    width: 29vw;
+    color: #DAD8D7;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.btnFim{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.btnFim button{
+    border-radius:8px;
+    background: #F4511F;
+    padding: 1vw;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
