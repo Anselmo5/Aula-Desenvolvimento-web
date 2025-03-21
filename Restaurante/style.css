@@ -613,5 +613,126 @@ body{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal7;
+}
+
+@media (max-width:952px){
+    .alingCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width:752px){
+
+    .blocoImg img{
+        width: 42vw;
+    }
+
+    .blocoConteudo h2{
+        font-size: 50px;
+    }
+
+    .blocoConteudo p{
+        font-size: 12px;
+    }
+
+    .alingSubMeio img{
+        display: none;
+    }
+
+    .alingSubMeio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .About p{
+        text-align: center;
+    }
+
+    .About{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subTexto p{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:607px){
+    .alingCardTop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .alingCardBottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .alingDesconto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .conteudoDesconto{
+        margin-top: 5vh;
+    }
+
+    .imgDesconto img{
+        width: 30vw;
+    }
+
+    .btnFim{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subTexto p{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:550px){
+    .blocoConteudo h2{
+        font-size: 25px;
+    } 
+
+    .blocoConteudo p{
+        font-size: 9px;
+    } 
+
+    .Card img {
+        width: 20vw;
+    }
+    .About h2{
+        font-size: 2em;
+    }
+
+    .About p{
+        font-size:12px;
+        text-align: center;
+    }
+
+    .Linkscontent a{
+        font-size: 2;
+    }
 }
