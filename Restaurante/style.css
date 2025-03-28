@@ -218,7 +218,6 @@ body{
 
 .Card p{
     color: #FFF;
-    text-align: center;
     font-family: Poppins;
     font-size: 10px;
     font-style: normal;
@@ -734,5 +733,32 @@ body{
 
     .Linkscontent a{
         font-size: 2;
+    }
+}
+
+
+@media (max-width:450px) {
+    .Linkscontent a{
+        font-size: 0.5em;
+    }
+
+    .btn button{
+        font-size: 0.5em;
+    }
+
+    .blocoImg h3,p{
+        font-size: 0.5em;
+    }
+
+    .blocoConteudo h3{
+        font-size: 0.5em;
+    }
+
+    .blocoConteudo h2{
+        font-size: 1em;
+    }
+
+    .blocoConteudo button{
+        font-size: 0.5em;
     }
 }
