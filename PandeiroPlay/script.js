@@ -1,4 +1,3 @@
-// Define a localização inicial como Florianópolis
 var map = L.map('map').setView([-27.5954, -48.5480], 13); 
 
 // Adiciona o mapa do OpenStreetMap
