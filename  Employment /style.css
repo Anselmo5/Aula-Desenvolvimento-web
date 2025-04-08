@@ -95,8 +95,43 @@ header{
 
 .btnInicio2{
     border: 1px solid #0d0d0d;
+    background:#CAFAD9;
 }
 
 .ImgInicio img{
     width: 25vw;
+}
+
+/* Carrosell */
+
+.Carrosell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    padding: 5vw 5vw;
+}
+
+.alingCarrosell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ConteudoCarrosell{
+    display: flex;
+
+}
+
+.ConteudoCarrosell img{
+    width:10vw;
+}
+
+.setaEsqueda img{
+    width:2vw;
+}
+
+.setaDireita img{
+    width:2vw;
 }
